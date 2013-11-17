@@ -3,7 +3,7 @@ Humperdink Simulator
 
 Version 0.2.0 Alpha
 
-**Authors:** David Collien, Daniel Goldbach
+**Authors:** David Collien (wrote simulator and API), Daniel Goldbach (wrote `genetic_algorithm.py`)
 
 A "humperdink" is a virtual creature simulated in a 2D physics environment.
 
