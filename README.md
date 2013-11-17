@@ -1,7 +1,7 @@
 Humperdink Simulator
 ====================
 
-Version 0.2.0 Alpha
+Version 0.2.0 Alpha (last updated 2010)
 
 **Authors:** David Collien (wrote simulator and API), Daniel Goldbach (wrote `genetic_algorithm.py`)
 
