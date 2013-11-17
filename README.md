@@ -65,17 +65,13 @@ These parameters, and the connectivity of limbs are specified as a tree in JSON 
 
 Runtime Flags:
 
-`-f filename`
-specify the JSON file to read from (without this flag it defaults to stdin)
+* `-f filename` specify the JSON file to read from (without this flag it defaults to stdin)
 
-`-i iterations`
-specify the number of iterations before termination
+* `-i iterations` specify the number of iterations before termination
 
-`-s speed`
-specify the number of iterations to process before displaying a frame
+* `-s speed` specify the number of iterations to process before displaying a frame
 
-`-g`
-suppress graphical output
+* `-g` suppress graphical output
 
 
 Compilation:
@@ -102,11 +98,12 @@ on Ubuntu this may require:
 	sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev
 
 Nvidia hardware might prefer:
+
 	sudo apt-get install nvidia-glx-180-dev
+
 in which case you'll need to change the Makefile's CFLAGS line to have:
 
 	-I/usr/share/doc/nvidia-glx-180-dev/include/
-
 
 
 Compiling your program with the humperdink simulator:
